@@ -1,0 +1,65 @@
+body .slider {
+		overflow:hidden; /* Скрываем всё что за блоком слайдера */
+		position:relative;
+		width:800px;
+		/*height:500px;*/
+		margin:0 auto;
+	}
+	
+		body .slider .slides {
+			position:relative;
+			transition:1s; /* Задаем время изменения блока, отвечает за плавную прокрутку */
+		}
+		
+			body .slider .slides .slide {
+				float:left;
+				display:block;
+			}
+			
+			body .slider .slides .slide img{
+				width:800px;
+				height:500px;
+			}
+			
+		body .slider .next {
+			opacity: 0.5;
+			position:absolute;
+			width: 0;
+			height: 0;
+			border-top: 40px solid transparent;
+			border-right: 40px solid purple;
+			border-bottom: 40px solid transparent;
+			/*background:purple;*/
+			right:0;
+			top:290px;
+			z-index:1;
+			cursor:pointer;
+			transition: 0.5s;
+		}
+		
+		body .slider .prev {
+			
+			opacity: 0.5;
+			position:absolute;
+			width: 0;
+			height: 0;
+			border-top: 40px solid transparent;
+			border-left: 40px solid purple;
+			border-bottom: 40px solid transparent;
+			/*background:purple;*/
+			left:0;
+			top:290px;
+			z-index:1;
+			cursor:pointer;
+			transition: 0.5s;
+		}
+		body .slider .prev:hover,body .slider .next:hover  {
+			opacity: 0.7;
+			transition: 0.5s;
+		}
+		body .slider .prev::after {
+			/*content: "<";*/
+		}
+		body .slider .next::after {
+			/*content: ">";*/
+		}

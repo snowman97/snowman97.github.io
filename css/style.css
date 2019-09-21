@@ -68,7 +68,9 @@ lighter{
     padding: 5px;
     height: 2000px;
 }
-
+#about-me{
+    margin-bottom: 100px;
+}
 .dark{
     background-color: black;
     color: white;
@@ -127,6 +129,10 @@ lighter{
     background-color: gray;
     margin-left: 10px;
 }
+#checking-topic:hover #circle{
+    
+    transition: 1s;
+}
 .article{
     margin-left: auto;
     margin-right: auto;
@@ -135,19 +141,17 @@ lighter{
 
 }
 .title{
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em;
+    text-align: center;
 }
 
-#characters {
+.characters {
   background: linear-gradient(45deg, purple, purple);
   border-bottom: 1px solid purple;
   position: relative;
   top: 25px;
 }
 
-#characters::after {
+.characters::after {
     border: medium solid transparent;
     content: "";
     top: 100%;
@@ -160,7 +164,7 @@ lighter{
     margin-left: -25px;
     transition: 0.5s;
 }
-#characters:hover::after {
+.characters:hover::after {
     transition: 0.3s;
     border-width: 30px;
     margin-left: -30px;
@@ -189,4 +193,23 @@ lighter{
 
 #summary{
     margin-top : 0px;
+}
+
+#carousel{
+
+}
+#backToTop{
+    cursor: pointer;    
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+#backToTop:hover{
+    opacity: 1 !important;
+    transition: 0.5s;
+}
+#backToTop img{
+    width: 70px;
 }
