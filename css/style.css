@@ -18,6 +18,8 @@ hr{
 }
 body {
     padding: 5px;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 header{
@@ -32,7 +34,15 @@ footer{
     text-align: center;
     width: 100%;
 }
-
+#about-me {
+    padding: 10px;
+}
+.text{
+    background: #80808024;
+    margin-top: -8px;
+    margin-bottom: -25px;
+    padding: 20px;
+}
 .photo img{
     width: 30%;    
     float: left;
@@ -89,7 +99,7 @@ lighter{
 }
 .text-heading{
 
-    width: 50%;
+    width: 55%;
     float: right;
     margin: 10px;
 }
@@ -134,12 +144,21 @@ lighter{
 .article{
     margin-left: auto;
     margin-right: auto;
-    /*width: 44em;*/
     height: 500px;
 
 }
 .title{
     text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+.secondTitle{
+    font-size: 1.3em;
+    letter-spacing: 3px;
+}
+.workData{
+    line-height: 1;
+    padding-left: 12px;
 }
 
 .characters {
@@ -189,9 +208,7 @@ lighter{
     border-radius: 50px;
 }
 
-#summary{
-    margin-top : 0px;
-}
+
 
 #carousel{
 
