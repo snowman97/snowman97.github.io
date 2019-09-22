@@ -34,7 +34,7 @@
 		text-align: center;
 	}
 	.article{
-		height: 900px;
+		height: 600px;
 	}
 
 	footer{
@@ -68,5 +68,8 @@
 	.photo img.portrait {
 		width: 100%;
 		height: auto;
+	}
+	#heart{
+		display: none;
 	}
 }
