@@ -1,4 +1,6 @@
-
+html{
+    overflow-x: hidden;
+}
 
 header span:hover{
 cursor: pointer;
@@ -27,12 +29,11 @@ header{
 }
 
 footer{
+    text-align: center;
     width: 100%;
-    padding: 5px;
 }
 
 .photo img{
-    height: 30%;
     width: 30%;    
     float: left;
     margin: 10px;
@@ -86,11 +87,6 @@ lighter{
 #content {
     height: 2000px;
 }
-.footer{
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em
-}
 .text-heading{
 
     width: 50%;
@@ -138,7 +134,7 @@ lighter{
 .article{
     margin-left: auto;
     margin-right: auto;
-    width: 44em;
+    /*width: 44em;*/
     height: 500px;
 
 }

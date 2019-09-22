@@ -5,6 +5,68 @@
 	}
     .container{
     	padding: 0px;
-        width: 250%;
+    	width: 100%;    
     }
+    body .slider {
+		width: 320px;
+    }
+    body .slider .slides .slide img{
+		width:320px;
+	}
+	#oval{
+		width: 100%;
+	}
+	header{
+		padding: 0px;
+	}
+	body .slider .next {
+		top: 150px;
+	}
+	body .slider .prev {
+		top: 150px;
+	}
+	.text-heading {
+	    width: 100%; 
+	    float: none; 
+	    margin: 0px;
+	}
+	#summary{
+		text-align: center;
+	}
+	.article{
+		height: 900px;
+	}
+
+	footer{
+		margin-top: 188px;
+	}
+
+
+	.photo img {
+	    width: 100%;
+	    margin: 0px;
+	    -moz-border-radius:  0;
+	    -webkit-border-radius:  0;
+	    border-radius: 0;
+	}
+
+	.photo {
+	    position: relative;
+	    height: 230px;
+	    overflow: hidden;
+	}
+	.photo img {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		-webkit-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		transform: translate(-50%,-41%);
+	}
+	.photo img.portrait {
+		width: 100%;
+		height: auto;
+	}
 }
