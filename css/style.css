@@ -103,18 +103,7 @@ lighter{
     float: right;
     margin: 10px;
 }
-#oval {
-    width: 517px;
-    height: 392px;
-    background: linear-gradient(45deg, #C8A2C8, purple);
-    -moz-border-radius: 200px / 200px;
-    -webkit-border-radius: 200px / 200px;
-    border-radius: 200px / 200px;
-    position: absolute;
-    transform: rotate(41deg)translate(-95px,21px);
-    opacity: 0.7;
-    z-index: -1;
-}
+
 #circle{
     margin: 2px;
     width: 15px;

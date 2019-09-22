@@ -1,0 +1,123 @@
+#oval {
+    box-shadow: -17px 48px 113px rgb(0, 0, 0);
+    width: 517px;
+    height: 392px;
+    background: linear-gradient(45deg, #C8A2C8, purple);
+    -moz-border-radius: 200px / 200px;
+    -webkit-border-radius: 200px / 200px;
+    border-radius: 200px / 200px;
+    position: absolute;
+    transform: rotate(41deg)translate(-95px,21px);
+    opacity: 0.7;
+    z-index: -1;
+}
+
+#heart {
+    position: relative;
+
+    width: 100px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+
+    content: "";
+
+    left: 377px;
+
+    top: -88px;
+
+    width: 518px;
+
+    height: 80px;
+
+    background: #661c66;
+
+    -moz-border-radius: 50px 50px 0 0;
+
+    border-radius: 50px;
+
+    -webkit-transform: rotate(-45deg);
+
+    -moz-transform: rotate(-45deg);
+
+    -ms-transform: rotate(-45deg);
+
+    -o-transform: rotate(-45deg);
+
+    transform: rotate(147deg);
+
+    -webkit-transform-origin: 0 100%;
+
+    -moz-transform-origin: 0 100%;
+
+    -ms-transform-origin: 0 100%;
+
+    -o-transform-origin: 0 100%;
+
+    transform-origin: 0 100%;
+
+    z-index: -1;
+
+    opacity: 0.5;
+
+    background: linear-gradient(0deg, #85138e57, #8c218c);
+}
+#heart:after {
+    left: -113px;
+
+    -webkit-transform: rotate(45deg);
+
+    -moz-transform: rotate(45deg);
+
+    -ms-transform: rotate(45deg);
+
+    -o-transform: rotate(45deg);
+
+    transform: rotate(0deg);
+
+    -webkit-transform-origin: 100% 100%;
+
+    -moz-transform-origin: 100% 100%;
+
+    -ms-transform-origin: 100% 100%;
+
+    -o-transform-origin: 100% 100%;
+
+    transform-origin: 100% 100%;
+
+    top: 7px;
+}
+
+#arc{
+    width: 214px;
+    height: 100px;
+    border-radius: 100px 100px 0 0;
+    border-top: 4px solid #661c66;
+    border-left: 11px solid #651965;
+    border-right: 2px solid #651b65;
+    opacity: 0.8;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 11%;
+    top: 0;
+}
+
+.lines{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 200px;
+    height: 4px;
+    background: purple;
+    opacity: 0.6;
+}
+div .lines:nth-child(1){
+    margin-top: 30px;
+}
+
+.lines:nth-child(1) {
+
+    display: none;
+
+}
